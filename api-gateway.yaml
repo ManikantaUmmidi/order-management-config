@@ -18,6 +18,7 @@ spring:
           uri: lb://ORDER-SERVICE
           predicates:
             - Path=/api/orders/**
+            - Path=/api/dashboard/**
 server:
   port: 9081
 
